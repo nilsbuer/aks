@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  generateName: aks-pi-job
+  generateName: aks-pi-job-github-
   #name: aks-pi-job
   namespace: sbbatch
 spec:
