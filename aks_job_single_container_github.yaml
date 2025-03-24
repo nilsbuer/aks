@@ -2,7 +2,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   generateName: aks-github-
-  #name: aks-pi-job
   namespace: sbbatch
 spec:
   ttlSecondsAfterFinished: 3600
